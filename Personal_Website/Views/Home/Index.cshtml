@@ -1,8 +1,54 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    Layout = null;
 }
-
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paul Drake's Website</title>
+    <link rel="stylesheet" type="text/css" href="~/lib/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="~/lib/bootstrap/dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="~/lib/bootstrap/dist/css/bootstrap-reboot.css">
+    <link rel="stylesheet" type="text/css" href="~/css/site.css">
+</head>
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <button type="button" class="btn btn-primary"><a href="~/files/Paul Drake Resume.pdf">Resume</a></button>
+            </div>
+            <div class="col-6">
+                <h1>Paul Drake's Website</h1>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My Projects</button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Movie Streaming Availability App</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <p>Hello, my name is Paul Drake and I specialize in web development. I am a graduate of Lubbock Coding Academy with Certification in Full Stack Software Development as of November, 2020. Please visit my portfolio at www.github.com/pdrake1988 to view my Capstone Project and Movie Showtime App Project that I completed at Lubbock Coding Academy along with other web development projects in progress. I have an innate curiosity for pattern-finding, logic, problem-solving and trying to find innovative solutions. In my spare time, I love to solve puzzles. When I realized that the process of coding and programming was like solving a puzzle, I became absolutely hooked on web development. Learning new languages and creating complex projects is rewarding for me.</p>
+            <br>
+            <p>
+                One thing that sets me apart is I am a former Paramedic graduate with an Emergency Medical Services Technician Certification graduating in the top 5% of my class. I initially wanted to provide out-of-hospital acute care and help others and worked required clinical hours towards this goal. After some time, I realized this career was not a fit because the tasks became stagnant. I am thrilled to have made this change to web development where I can support the tech and ecommerce industries.
+            </p>
+            <br>
+            <p>When I have the day off, I enjoy cooking delicious meals in the kitchen, listening to music, playing video games and online card games. I also love spending quality time with my family.</p>
+        </div>
+        <div class="col-6">
+            <img class="img-fluid" src="~/files/my-picture.png" alt="My Picture">
+        </div>
+    </div>
 </div>
+<script rel="script" type="text/javascript" src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+<script rel="script" type="text/javascript" src="~/lib/jquery/dist/jquery.js"></script>
+<script rel="script" type="text/javascript" src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
